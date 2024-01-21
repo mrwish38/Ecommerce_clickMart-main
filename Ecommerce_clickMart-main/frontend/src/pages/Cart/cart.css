@@ -1,0 +1,149 @@
+#cart-section {
+    padding: 2rem 3rem;
+  }
+
+  .emptyCart{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+  }
+
+  .emptyCart > img{
+    width: 10vmax;
+  }
+
+  .emptyCart > span{
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: 500;
+  }
+
+  .emptyCart > a{
+    background-color: #2d3243;
+    color: white;
+    border: none;
+    padding: 0.7rem 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  .cart-headings {
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    margin-bottom: 0;
+  }
+
+  .cart-headings h4:nth-child(3) {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+  }
+
+  .cart-headings{
+    border-bottom: 3px solid #ff3f6c ;
+    margin-bottom: 2rem;
+  }
+
+  .cart-body{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+  }
+
+  .quantity-box{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+.quantity-box input[type="number"] {
+    width: 25px;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .quantity-control {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+    background-color: #ff3f6c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    transition: all 0.3s;
+    border-radius: 2px;
+  }
+  
+  .quantity-control:hover {
+    background-color:  #FF1C47;
+  }
+
+  .cartSubTotal{
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    align-items: center;
+    height: 8rem;
+    font-weight: 600;
+  }
+
+  .cartGrossTotal{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+  }
+
+  .cartGrossTotalBox{
+    border-top: 3px solid #ff3f6c ;
+    box-sizing: border-box;
+    margin: 1rem 4rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+
+  .placeOrder-btn > button{
+    padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  margin:1rem 4rem;
+  align-items: center;
+  background-color: #ff3f6c;
+  width: 50%;
+  text-align: center;
+  }
+
+  
+.placeOrder-btn > button:hover {
+    background-color: #ff1c47;
+  }
+  
+
+
+  @media screen and (max-width: 500px) {
+    .cart-headings {
+      display: grid;
+      grid-template-columns: 3fr 2fr 1fr;
+    }
+    .cart-body{
+      display: grid;
+      grid-template-columns: 3fr 2fr 1fr;
+    }
+  }
+
+   

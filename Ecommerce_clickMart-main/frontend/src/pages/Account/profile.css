@@ -1,0 +1,89 @@
+.profile-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+  }
+  
+.profile-left , .profile-right{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.prfile-heading{
+    font-size: 2.2rem;
+}
+  
+.profile-image {
+    width: 20rem;
+    border-radius: 100%;
+}
+
+.edit-button{
+    border: none;
+    background-color: #FF3F6C;
+    font-size: 1rem;
+    color: white;
+    width: 30%;
+    margin: 3.5rem;
+    padding: 0.5rem 1.4rem;
+    text-align: center;
+    transition: all 0.5sec;
+    border-radius: 6px;
+}
+
+.edit-button:hover{
+    background-color:  #FF1C47;
+}
+
+.profile-right{
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 4rem;
+    box-sizing: border-box;
+}
+
+.profile-right h4{
+    font-size: 1.2rem;
+}
+
+.profile-right p{
+    font-size: 1rem;
+    margin: 0.2rem;
+}
+
+.right-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-right a{
+    border: none;
+    background-color: #2d3243;
+    padding: 0.5rem 1.4rem;
+    text-align: center;
+    margin: 0 1rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+.profile-right a:hover{
+    background-color:  #202434;
+}
+
+
+@media screen and (max-width: 600px) {
+    .profile-image {
+      width: 10rem;
+    }
+  
+    .edit-button {
+      width: 80%;
+    }
+  }

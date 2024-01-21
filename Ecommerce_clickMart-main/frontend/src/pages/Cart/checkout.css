@@ -1,0 +1,128 @@
+#checkout-section{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: auto;
+}
+
+.shipping-box{
+    width: 30vw;
+    overflow: hidden;
+}
+
+.shipping-box h2{
+    text-align: center;
+    font-size: 1.3rem;
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px solid rgba(48,48,48);
+    padding: 1.2rem;
+    font-weight: 400;
+}
+
+.shipping-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 2rem;
+    transition: all 0.5sec;
+}
+
+.inputWithIcon{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.inputWithIcon > input , .inputWithIcon > select {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.205);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0.8rem 3rem;
+    padding-left: 4rem;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+.inputWithIcon > i {
+    position: absolute;
+    transform: translateX(1rem);
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    color: rgb(169, 169, 169);
+}
+
+.shipping-btn{
+    border: none;
+    background-color: #FF3F6C;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    margin: 2rem;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.shipping-btn:hover{
+    background-color:  #FF1C47;
+}
+
+.return-to-cart-link {
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+    color: rgb(30, 212, 30);
+}
+
+.return-to-cart-link:hover {
+    transform: translateX(-5px);
+    color: rgb(15, 126, 15);
+}
+
+
+
+.step-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .MuiStepConnector-line {
+    display: none !important;
+  }
+
+  .MuiStepConnector-root {
+    height: 1px;
+    background-color: rgba(48,48,48);
+  }
+
+  .MuiStepConnector-actve, .MuiStepConnector-completed{
+    background-color: #FF3F6C;
+  }
+  
+  
+@media screen and (max-width: 1000px) {
+    .shipping-box {
+      width: 70vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shipping-box {
+      width: 100vw;
+    }
+
+  }

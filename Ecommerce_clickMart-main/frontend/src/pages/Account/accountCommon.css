@@ -1,0 +1,169 @@
+#account-section{
+    background-color: #F6F6F6;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .accountCommon-box{
+    background-color: #ffffff;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 2rem;
+    position: absolute;
+    top: 40%;
+  }
+
+  .accountCommon-box h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.205);
+  }
+
+.accountCommonForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    background-color: #fff;
+    margin: auto;
+    height: 70%;
+    transition: all 0.5s;
+  }
+  
+  .accountCommonImage > img{
+    width: 3vmax;
+    border-radius: 100%;
+  }
+  
+  .accountCommonImage > input {
+    display: flex;
+  }
+
+  .accountCommonImage > input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    font-size: 0.8rem;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    background:transparent;
+  }
+
+  .accountCommonImage > input::file-selector-button:hover{
+    background-color: #EBEBEB;
+  }
+  
+.accountCommonForm > div
+  {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+.accountCommonForm > div > input{
+    padding: 0.5rem 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(0,0,0,0.205);
+    border-radius: 6px;
+    outline: none;
+    font-size: 0.9rem;
+    color: rgb(169, 169, 169);
+  }
+    
+.accountCommon-btn{
+    padding: 0.5rem 1.4rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+    font-size: 0.8rem;
+    background-color: #FF3F6C;
+    color: #DAE3EA;
+    transition: all 0.5s;
+    margin-top: 1.5rem;
+  }
+  
+  .accountCommon-btn:hover{
+    background-color:  #FF1C47;
+  }
+
+
+  .accountCommonForm > .inputWithIcon {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .accountCommonForm > .inputWithIcon > input {
+    padding-left: 3rem; 
+  }
+  
+  .accountCommonForm > .inputWithIcon > i {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    z-index: 1; 
+    font-size: 1.4rem;
+    color: rgb(169, 169, 169);
+  }
+  
+
+  @media only screen and (max-width: 1024px) {
+    .accountCommon-box{
+      width: 50vw;
+      height: 80vh;
+      top: 40%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .accountCommon-box{
+      width: 90vw;
+      height: 80vh;
+      top: 40%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .accountCommon-section{
+      background-color: #ffffff;
+    }
+    .accountCommon-box {
+      width: 90vw;
+      height: 80vh;
+      top: 40%;
+    }
+  
+    .accountCommonForm {
+      padding: 1.5rem 1rem;
+    }
+  
+    .accountCommonImage > img {
+      width: 40px;
+      margin-right: 0.5rem;
+    }
+  
+    .accountCommonImage > input::file-selector-button {
+      height: 30px;
+      font-size: 0.7rem;
+    }
+  
+    .accountCommonForm > div > input {
+      padding: 0.5rem 1rem;
+    }
+  
+    .accountCommon-btn {
+      padding: 0.5rem 1rem;
+    }
+  }
+  

@@ -1,0 +1,65 @@
+.myOrders-page {
+    width: 100vw;
+    max-width: 100%;
+    padding: 0 5vmax;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .myOrders-heading {
+    text-align: center;
+    font-size:1.2rem;
+    font-weight: 400;
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    background-color: #2d3243;
+    color: #fff;
+  }
+  
+  .myOrders-table{
+    margin-top: 2rem;
+  }
+
+  .myOrders-table div {
+    font-size: 0.9rem;
+    font-weight: 300;
+    border: none;
+  }
+  
+  .myOrders-table a {
+    color: rgba(48,48,48);
+    transition: all 0.5s;
+    padding-right: 0.8rem;
+  }
+  
+  .myOrders-table a:hover {
+    color: #ff3f6c;
+  }
+  
+  .MuiDataGrid-columnHeader {
+    background-color: #ff3f6c;
+    padding: 1vmax !important;
+  }
+  
+  .MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+    font-size: 500 1.1rem "Roboto" !important;
+  }
+  
+  .MuiDataGrid-iconSeparator {
+    display: none !important;
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .MuiDataGrid-columnHeader {
+      padding: 20px !important;
+    }
+  
+    .MuiDataGrid-columnHeader div {
+      font: 500 5vw "Roboto" !important;
+    }
+  }
+  

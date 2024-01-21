@@ -1,0 +1,99 @@
+  .carousel-status {
+    display: none !important;
+  }
+
+  .carousel-item {
+    height: 300px;
+    width: 100%;
+    padding: 5% 5%;
+    object-fit: cover;
+  }
+  
+  
+.home-heading {
+  text-align: center;
+  font-size: 1.6rem;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 22vmax;
+  padding: 1rem;
+  margin: 4rem auto;
+}
+
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 90vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.featured-productCard{
+  width: 16vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+
+.featured-productCard> img {
+  width: 16vmax;
+}
+
+.featured-productCard> div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.productCardSpan {
+  margin: 0.5vmax;
+  font: 300 0.7vmax "Roboto";
+}
+
+.featured-productCard> p {
+  font-family: "Roboto";
+  font-size: 1.2vmax;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.featured-productCard> span {
+  margin: 0.5vmax;
+  color: #ff3f6c;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 1vmax;
+}
+
+.featured-productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
+}
+  
+  /* Marque Section */
+  #marquee{
+    background-color: #F6F6F6;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .marquee-content{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+
+  .brands-image img{
+    height: 100px;
+    padding: 0.5rem 2rem;
+  }
+  

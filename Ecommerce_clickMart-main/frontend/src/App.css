@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    font-family: "Roboto";
+  }
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.greenColor{
+    color: green;
+    margin-left: 0.8rem;
+  }
+  
+  .redColor{
+    color: red;
+    margin-left: 0.8rem;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    cursor: pointer;
+  }
+  
+  h1,h2,h3,h4,h5,h6{
+    color: rgb(48, 48, 48);
+  }
+  
+  p{
+    margin: 0;
+  }
+  
+  .line{
+    border-top: none;
+    border-bottom: 0.09rem solid #e3e2e2;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  
