@@ -13,10 +13,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div
-      className="productCardWrapper"
-      
-    >
+    <div className="productCardWrapper">
       <Link className="productCard" to={`/product/${product._id}`}>
         <img
           className="featuredProduct-image"
