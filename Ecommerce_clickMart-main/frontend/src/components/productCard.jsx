@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
   return (
     <div
       className="productCardWrapper"
-      style={{ width: "250px", height: "150px" }}
+      
     >
       <Link className="productCard" to={`/product/${product._id}`}>
         <img
